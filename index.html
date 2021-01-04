@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Technical Documentation Page</title>
+        <link rel="stylesheet" href="assets/styles.css">
+    </head>
+    <body>
+        <main id="main-doc">
+
+            <section class="main-section" id="Referensi">
+                <header>
+                    <h1>Referensi</h1>
+                </header>
+                <ol>
+                    <li>AIA CAD Layer Guidelines, United States National CAD Standar v.5, 2005</li>
+                    <li>CAD Standars, University of Alaska Fairbanks Facilities Services, Division of Design and Construction, 2000</li>
+                    <li>AEC (UK) CAD Standar for Model File Naming v.2.4, 2005</li>
+                    <li>Computer Aided Design (CAD) Standards, United States Departemnt of Agriculture, Drafting and Drawings National Engineering Handbook, 2006</li>
+                </ol>
+            </section>
+
+            <section class="main-section" id="Standard_CAD_Internasional">
+                <header>
+                    <h1>Standard CAD Internasional</h1>
+                </header>
+                <p>Di beberapa negara maju seperti Amerika Serikat, Inggris, Australia, Singapura, Hongkong, otoritas pembangunan menerbitkan standar CAD yang digunakan dan diseragamkan untuk proyek-proyek pembangunan yang didanai oleh pemerintah. Otoritas Singapura misalnya, memiliki standar CAD yang diterbitkan oleh Urban Development Authority (URA) untuk semua proyek pemerintah.</p>
+                <p>Mengapa perlu standar? Karena beberapa faktor diantaranya yakni:</p>
+                <ol>
+                    <li>Teknologi CAD dan BIM menjadi standar dalam proses konstruksi mulai dari konsep hingga pelaksanaan konsturksi dan evaluasinya. Adanya standar memudahkan komunikasi antar data, mengefektifkan pengorganisasian dan penyajian data elektronik.</li>
+                    <li>Standar CAD mengefektifkan komunikasi antar disiplin ilmu pelaku proyek selama proses pengembangan proyek, juga komunikasi dengan otoritas kaitannya dengan pengendalian pembangunan.</li>
+                    <li>Standar CAD akan mengurangi biaya koordinasi dan meningkatkan kinerja proyek mulai dari proses desain hingga konstruksi.</li>
+                </ol>
+            </section>
+
+            <section class="main-section" id="Aplikasi_Standard">
+                <header>
+                    <h1>Aplikasi Standard</h1>
+                </header>
+                <p>Yang diatur dalam standar CAD adalah semua gambar yang diproduksi untuk keperluan proyek konstruksi, bukan gambar-gambar presentasi.</p>
+            </section>
+            
+            <section class="main-section" id="Software_CAD">
+                <header>
+                    <h1>Software CAD</h1>
+                </header>
+                <p>Software-software berikut yang umumnya digunakan sebagai basis pembuatan standard karena digunakan secara luas oleh pelaku-pelaku konstruksi:</p>
+                <ol>
+                    <li>Autodesk AutoCAD</li>
+                    <li>Microstation</li>
+                </ol>
+            </section>
+
+            <section class="main-section" id="Prinsip-prinsip_Dalam_Penerapan_Standard">
+                <header>
+                    <h1>Prinsip-prinsip Dalam Penerapan Standard</h1>
+                </header>
+                <p>Sesuai dengan fungsinya, penerapan standar-standar CAD berawal dan ditujukan untuk meningkatkan praktek yang baik (<i>good practices</i>) dalam produksi gambar-gambar teknik yang sangat penting bagi pelaksanaan suatu proyek.</p>
+                <ol>
+                    <li>CAD tidak hanya sekedar mengganti meja dan mesin gambar.<br>Teknologi CAD tidak akan efektif bila dipandang hanya merupakan perangkat pengganti mesin dan meja gambar. Harap diingat bahwa obyek yang digambar di CAD lebih dari sekedar kumpulan garis melainkan data.</li>
+                    <li>CAD adalah perangkat untuk koordinasi<br> Karena berupa data maka koordinasi antar data menjadi salah satu keunggulan CAD. Obyek-obyek yang serupa tidak perlu digambar berulang kali sehingga mengefektifkan waktu pengerjaan</li>
+                    <li>CAD tidak terbatas pada ukuran kertas.</li>
+                </ol>
+                <p>Pembuatan model di CAD tidak sama dengan menggambar manual dengan ukuran kertas tertentu. Dengan CAD, kita dapat merancang dan menggambar dalam ukuran dan lingkup yang jauh lebih luas. Proses percetakan menggunakan CAD pada dasarnya adalah mengambil bagian (<i>snapshot</i>) dari model yang kita gambar.</p>
+            </section>
+
+            <section class="main-section" id="Organisasi_Files_dan_Folders">
+                <header>
+                    <h1>Organisasi Files dan Folders</h1>
+                </header>
+                <p>Umumnya, dipisahkan antara file MODEL yang berisi gambar model dari suatu obyek desain, baik 2D maupun 3D, digambar dengan skala sebenarnya (1:1), yang kedua adalah file GAMBAR yang berisi gambar yang akan dicetak lengkap dengan notasi, kop dan sebagainya.</p>
+                <p>Setiap kantor professional memiliki aturan sendiri terhadap manajemen folder ini.</p>
+            </section>
+
+            <section class="main-section" id="Basic_Model_File_Naming_Convention">
+                <header>
+                    <h1>Basic Model File Naming Convention</h1>
+                </header>
+                <code>DISIPLIN: dua digit karakter, misalnya AR.<br></code><br>
+                <code>
+                    VIEW: satu digit karakter:<br>
+                    P: Plan<br>
+                    D: Detail<br>
+                    E: Elevation<br>
+                    S: Section<br>
+                    3: 3D<br>
+                    R: Reflected Ceiling Plan<br>
+                </code><br>
+                <code>
+                    LEVEL: dua karakter:<br>
+                    00: Ground Floor<br>
+                    01: Lantai Satu<br>
+                    B1: Basement Satu<br>
+                    M1: Mezzanine Satu<br>
+                    RF: Roof<br>
+                </code><br>
+                <code>CONTENT: empat karakter, bisa menggambarkan elemen bangunan, dan sebagainya (opsional)<br></code><br>
+                <code>.EXT: jika menggunakan AutoCAD, maka .DWG</code>
+                <p>Contoh penggunaan penamaan file:</p>
+                <p>AR-P-00-Mass.DWG: Architecture-Plan-GroundFloor-Massing</p>
+            </section>
+
+        </main>
+        <aside>
+            <nav id="navbar">
+                <header>
+                    <h1 id="judul_menu">Standar Penggambaran CAD</h1>
+                </header>
+                <a class="nav-link" href="#Referensi">Referensi</a>
+                <a class="nav-link" href="#Standard_CAD_Internasional">Standard CAD Internasional</a>
+                <a class="nav-link" href="#Aplikasi_Standard">Aplikasi Standard</a>
+                <a class="nav-link" href="#Software_CAD">Software CAD</a>
+                <a class="nav-link" href="#Prinsip-prinsip_Dalam_Penerapan_Standard">Prinsip-prinsip Dalam Penerapan Standard</a>
+                <a class="nav-link" href="#Organisasi_Files_dan_Folders">Organisasi Files dan Folders</a>
+                <a class="nav-link" href="#Basic_Model_File_Naming_Convention">Basic Model File Naming Convention</a>
+            </nav>
+        </aside>
+    </body>
+</html>
