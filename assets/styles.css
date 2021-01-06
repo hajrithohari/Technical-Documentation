@@ -6,6 +6,8 @@
 
 body{
     font-family: 'Quicksand', sans-serif; 
+    padding: 0;
+    margin: 0;
 }
 
 main{
@@ -38,7 +40,7 @@ a{
     text-align: center;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     body{
         display: flex;
         flex-direction: column;
@@ -47,11 +49,19 @@ a{
     main{
         position: relative;
         top: 300px;
-        width: auto;
+        width: 90%;
+        font-size: 12px;
+        float: unset;
+        margin: auto;
+        padding: 0;
     }
 
     aside{
         position: absolute;
-        width: auto;
+        width: 90%;
+        float: unset;
+        margin: auto;
+        padding: 0;
+        left: 5%;
     }
 }
